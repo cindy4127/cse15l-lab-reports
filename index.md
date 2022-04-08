@@ -1,4 +1,4 @@
-Hello my name is Cindy.
+Hello my name is *Cindy*.
 I am in **Muir** college. 
 # Heading 1 
 ## Heading 2
