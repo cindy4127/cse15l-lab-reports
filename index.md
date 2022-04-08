@@ -7,4 +7,15 @@ I am in **Muir** college.
 Break: 
 ---
 >Blockquote
+
 ![Image](https://ucsdguardian.org/wp-content/uploads/2021/05/GeiselLightning_UCSanDiego_ErikJepsen-1024x655.jpg)
+
+1. Uno
+2. Dos
+3. Tres
+4. Cuatro 
+
+**TO DO**
+* finish homework for xyz 
+* start lab writeup
+* review xyz
