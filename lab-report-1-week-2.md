@@ -28,6 +28,7 @@ To remotely connect to a host we need to first open the terminal. Using your ter
 
 
 # 4. Move files using command scp
+
 * create file inside a directory that is not home
 * file is created on your *local* computer, we will try to copy it onto your *remote* computer
 * use `ls` to see if file is made
@@ -45,6 +46,7 @@ To remotely connect to a host we need to first open the terminal. Using your ter
 
 
 # 5. Set up SSH key
+
 Set up an SSH key so you do not have to continuously keep typing your password. On your local terminal use `ssh-keygen`.You will be prompted to enter a file. The file to save the key is /Users/<username>/.ssh/id_rsa. There is no passphrase, press enter to leave empty. Your key fingerprint will appear.
 
 You will need to link your fingerprint to your remote account. Sign onto your remote account and once signed on, use command `mkdir`. Then logoff your remote machine and sign on to your local machine. Use the `scp` command to link it. 
@@ -58,6 +60,7 @@ You will need to link your fingerprint to your remote account. Sign onto your re
 
 
 # 6. Optimizing Remote Running
+
 To copy over the local changes I made, I had to ensure I was in the right directory. I used `pwd` to ensure I was in the right place. On my local machine, I used the command `scp` to copy. I first forgot to include -201 on ieng6 when trying to copy. But to copy my local changes I had to use `scp file.java cs15lsp22xxx@ieng6-201.ucsd.edu:~/directory`
 
 ![Image](local.png)
