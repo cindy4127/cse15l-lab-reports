@@ -1,4 +1,5 @@
-# Lab Report Week Two
+# Lab Report 1
+## Week Two
 
 # Tutorial for ssh into a remote account 
 
