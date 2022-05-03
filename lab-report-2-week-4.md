@@ -19,6 +19,9 @@ There is no link present in the file. There is just the instructions to copy a l
 ### Link to test file for _failure-inducing input_ 
 * [test-file5.md](https://github.com/cindy4127/markdown-parser/commit/297ec59e7c0751a682842b4f188c56840f517716)
 ### Explaination 
+The link present in the file is a reference to a google image photo of ucsd. The link is supposed to lead directly to the jpg file. MarkDownParse does not recognize the link to be an image and prints out the link to the photo. It does not recognize it as an image, but rather sees it as a link. Adding the boolean flag case allows it to check for an "!" to let it know if it is an image or not. If the "!" is recognized then it will no longer be recognized as a link, and no link will be found in the test file (since it only has an image reference).
+
+
 
 
 
