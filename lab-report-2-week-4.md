@@ -25,6 +25,8 @@ The link present in the file is a reference to a google image photo of ucsd. The
 ### Symptom 
 ![Image](Symptom3.png)
 * The symptom shows that there is no link found inside the file, even though the file includes a link. There is just spaces seperating [name] and the the () that hold the link. 
+### Link to test file for _failure-inducing input_ 
+* [test-file6.md](https://github.com/cindy4127/markdown-parser/commit/bd767078cd54dccffae32c9048b5398c10ad27ad)
 
 
 
