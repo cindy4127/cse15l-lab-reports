@@ -21,6 +21,11 @@ There is no link present in the file. There is just the instructions to copy a l
 ### Explaination 
 The link present in the file is a reference to a google image photo of ucsd. The link is supposed to lead directly to the jpg file. MarkDownParse does not recognize the link to be an image and prints out the link to the photo. It does not recognize it as an image, but rather sees it as a link. Adding the boolean flag case allows it to check for an "!" to let it know if it is an image or not. If the "!" is recognized then it will no longer be recognized as a link, and no link will be found in the test file (since it only has an image reference).
 
+# Change 3: Extra spaces between [] and ()
+### Symptom 
+![Image](Symptom3.png)
+* The symptom shows that there is no link found inside the file, even though the file includes a link. There is just spaces seperating [name] and the the () that hold the link. 
+
 
 
 
