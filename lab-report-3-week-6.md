@@ -17,7 +17,7 @@
 
     ![Image](scpLab5A.png)
 
- # Setup Github Access from ieng6
+# Setup Github Access from ieng6
 * Once I had a copy of my public key, I copied it into my github account to make a new ssh key.
 ![Image](keygen-exists.png)
     * `cat ~/.ssh/id_rsa.pub` to print out the key in terminal 
