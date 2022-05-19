@@ -33,3 +33,7 @@
 ![Image](remote-mdp.png)
 * Compiling and running the tests for markdown-parse on my remote ieng6 account 
 * ![Image](remote-md-run.png)
+* single command that copies a directory and runs a command 
+![Image](scp-r-copy-run.png)
+![Image](scp-copy-run.png)
+    * we see that it ran the file, but there was an error that caused it to fail
