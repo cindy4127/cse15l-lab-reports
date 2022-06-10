@@ -52,12 +52,13 @@ Expected output should be `(/url)` because it is formatted as a valid link in 47
 
 **Which implementation is correct?**
 
-In this test file, my group's implementation is incorrect as it parsed that there is no links present. The provided implementation gave the correct output. 
+My group's implementation is incorrect because it parsed that there is no links present. The provided implementation gave the correct output. 
 
 **Bug in Code**
 
-There is a bug in the provided implementation.
+There is a bug in my group's implementation. There is a bug in my implementation that prevents anything from being returned. This might be because the for loop breaks before it can return the expected link.
 
 **Possible Fix**
 
-The segment of code that should be changed
+The segment of code that should be changed:
+![Image](fix-472.png)
